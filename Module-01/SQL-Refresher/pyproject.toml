@@ -1,0 +1,16 @@
+[project]
+name = "sql-refresher"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13.1"
+dependencies = [
+    "pandas>=2.3.3",
+    "pyarrow>=22.0.0",
+    "sqlalchemy>=2.0.45",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+]
