@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: int_trips
+    description: Intermediate model with cleaned and standardized trip data
+    columns:
+      - name: trip_id
+        description: Unique trip identifier
+        data_tests:
+          - not_null
+      - name: vendor_id
+        description: Taxi technology provider
+        
