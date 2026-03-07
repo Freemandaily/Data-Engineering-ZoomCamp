@@ -1,0 +1,16 @@
+*.csv
+*.parquet
+data/
+fhvhv/
+tmp/
+zones/
+Untitiled.ipynb
+Untitiled1.ipynb
+Untitiled2.ipynb
+uv.lock
+project.toml
+lib/
+homework/pq
+homework/spark-warehouse
+homework/*.csv
+homework/*.parquet
